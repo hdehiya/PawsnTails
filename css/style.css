@@ -1,0 +1,319 @@
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.bg-blue {
+    background-color: #bfd9f2;
+}
+
+.font-lemonada{
+	font-family: 'Helvetica', sans-serif;
+}
+
+.buttonCarosel{
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	font-size: 25px;
+}
+
+#divInformation{
+	width: 100%;
+	height: 550px;
+}
+
+#divInformation a{
+	text-decoration: none;
+	transition: all .5s ease;
+}
+
+#thumbnailInfo{
+	height: 350px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#thumbnailAdopt{
+	
+	border: none;
+	margin-left: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#volunteer{
+	position: relative;
+	top: 20px;
+}
+
+#shop{
+	width: 100%;
+	height: 650px;
+}
+
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: #292b2c;
+	margin-top: 50px;
+	
+	float: bottom;
+	position: absolute;
+}
+
+.footer-information{
+	position: relative;
+	color: white;
+	font-size: 15px;
+	top: 10px;
+}
+
+.footer a {
+  transition: all .5s ease;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.imgCardTeam{
+	width: 100%;
+	height: 250px;
+}
+
+#ourTeam{
+	height: 650px;
+}
+
+#adoptablePets{
+	height: 650px; 
+}
+
+#containerContact{
+	position: relative;
+	margin: auto;
+	width: 90%;
+	height: 500px;
+	top: 100px;
+}
+
+#containerShop{
+	position: relative;
+	margin: auto;
+	width: 90%;
+	height: 650px;
+	top: 60px;
+	margin-bottom: 100px;
+}
+
+#containerAdopt{
+	position: relative;
+	margin: auto;
+	width: 90%;
+	
+	top: 60px;
+	margin-bottom: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#containerAdopt a{
+	text-decoration: none;
+	transition: all .5s ease;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    height: 500px;
+    background-color: white;
+}
+
+.cardAdoptablePets{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    height: 530px;
+    background-color: white;
+}
+
+.cardPetGallery{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    height: 400px;
+    background-color: white;
+}
+
+.cardPetGallery:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.containerCard {
+	position: relative;
+    padding: 0 16px;
+}
+
+
+.containerVolunteer{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: 70px;
+	padding-bottom: 120px;
+}
+
+
+.containerVolunteerMessage{
+	position: relative;
+	width: 90%;
+	
+	top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: white;
+}
+
+.containerGalleryAdoption{
+	position: relative;
+	margin: auto;
+	width: 90%;
+	margin-top: 100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+#donateTodayImage{
+	position: relative;
+	width: 85%;
+	height: 85%;
+	top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.buyButton{
+	position: relative;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #00d31c;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    top: 10px;
+}
+
+.titleCard {
+    color: grey;
+    font-size: 18px;
+}
+
+.teamButton {
+    position: relative;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    top: 10px;
+}
+
+.adoptionButton {
+    position: relative;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #f93131;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    top: 10px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+
+button:hover, .link:hover {
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.donateButton{
+	font-size: 20px;
+	height: 70px;
+	width: 350px;
+	margin-top: 20px;
+	background-color: #f93131;
+	border: none;
+}
+
+.indent{
+	text-indent: 50px;
+}
+
+.price{
+	font-size: 25px;
+	color: #F48156;
+}
+
+#thumbnailInfo{
+	margin-top: 30px;
+	border: none;
+	align-content: center;
+	margin-left: 30px;
+}
